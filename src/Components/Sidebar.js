@@ -20,10 +20,6 @@ const Sidebar = () => {
           <BiGroup className="h-5 w-5 " />
           <h3 className="text-lg font-bold pl-2">Following</h3>
         </div>
-        <div className="flex flex-row items-center justify-center ">
-          <BiGroup className="h-5 w-5 " />
-          <h3 className="text-lg font-bold pl-2">Following</h3>
-        </div>
       </div>
     </div>
   );
