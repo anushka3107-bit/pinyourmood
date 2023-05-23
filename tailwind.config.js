@@ -9,6 +9,8 @@ module.exports = {
         cBackgroundBlue: "#79E0EE",
         cSearchIcon: "#FC4F00",
         cSearchText: "#DB005B",
+        cBackgroundColor: "#FFE3E1",
+        cTextColorShop: "#9B0000",
       },
     },
   },

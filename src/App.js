@@ -12,7 +12,7 @@ function App() {
           <Route path="/" element={<Navbar />} />
           <Route path="/sidebar" element={<Sidebar />} />
           <Route path="/landingpage" element={<LandingPage />} />
-          <Route path="/landingpagethirdpage" element={<LandingPageThirdPage/>} />
+          <Route path="/landingpagethird" element={<LandingPageThirdPage/>} />
         </Routes>
       </BrowserRouter>
     </div>
