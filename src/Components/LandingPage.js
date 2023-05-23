@@ -6,7 +6,7 @@ const LandingPage = () => {
     <>
       <div className="bg-cBackgroundBlue flex flex-col items-center justify-center min-h-screen w-full">
         <img
-          className="w-48 rounded-3xl absolute inset-x-1/4 top-2 "
+          className="w-48 rounded-3xl absolute inset-x-1/4 top-2"
           src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
           alt="foodTop"
         />
@@ -33,17 +33,21 @@ const LandingPage = () => {
         </div>
 
         <div className="flex flex-col">
-          <div className="flex flex-col  ml-96  justify-center items-center">
+          <div className="flex flex-col  ml-96 justify-center items-center">
             <span className="text-5xl text-cSearchText font-extrabold ">
               Search for new recipe
             </span>
-            <p
-              className="break-words  text-cSearchIcon font-medium text-lg "
-              style={{ overflowWrap: "break-word", wordBreak: "break-word" }}
-            >
-              What do you want to try next? Think of something you’re into—like
-              “easy chicken dinner”—and see what you find.
-            </p>
+            <div className="max-w-md ">
+              <p className="break-words pt-5 text-center  text-cSearchIcon font-medium text-lg ">
+                What do you want to try next? Think of something you’re
+                into—like “easy chicken dinner”—and see what you find.
+              </p>
+            </div>
+            <div className="pt-3">
+              <button className="bg-cSearchText px-6 py-2 rounded-full justify-center items-center text-white font-medium hover:bg-cSearchIcon">
+                Explore
+              </button>
+            </div>
           </div>
         </div>
       </div>
