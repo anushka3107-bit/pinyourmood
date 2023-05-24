@@ -7,6 +7,15 @@ const LandingPageThirdPage = () => {
           src="https://s.pinimg.com/webapp/shop-bd0c8a04.png"
           alt="fashion"
         />
+        <img
+          className="absolute w-56 top-28 left-20 rounded-2xl  justify-center items-center "
+          src="https://s.pinimg.com/webapp/creator-pin-img-491ebb56.png"
+        />
+        <img
+          className="absolute inset-y-3/4 w-28 left-12"
+          src="	https://s.pinimg.com/webapp/creator-avatar-d7a05622.png"
+        />
+
         <div className="flex-1 h-screen flex flex-col items-center justify-center ">
           <span className="text-cTextColorShop text-6xl font-extrabold">
             See it, make it,
