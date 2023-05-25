@@ -5,7 +5,7 @@ import LandingPageBottom from "./LandingPageBottom";
 const LandingPageTop = () => {
   return (
     <>
-      <div className="w-full container-snap overflow-x-auto">
+      <div className="w-screen h-screen container-snap overflow-x-auto">
         <div>
           <Navbar className="w-full" />
         </div>

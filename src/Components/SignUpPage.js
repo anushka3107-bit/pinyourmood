@@ -31,11 +31,13 @@ const SignUpPage = () => {
   }
 
   return (
-    <div className="h-screen w-screen overflow-hidden">
-      <div className="flex flex-row gap-[18px] w-[107%]">
-        <RenderColumn />
+    <div className="h-screen w-screen overflow-hidden bg-white">
+       <div class= "">
+        <div className="flex flex-row gap-[18px] w-[107%]">
+          <RenderColumn />
+        </div>
       </div>
-    </div>
+      </div>
   );
 };
 
