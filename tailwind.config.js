@@ -11,6 +11,7 @@ module.exports = {
         cSearchText: "#DB005B",
         cBackgroundColor: "#FFE3E1",
         cTextColorShop: "#9B0000",
+        cHoverColorOrange: "#E55807",
       },
     },
   },

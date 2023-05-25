@@ -5,7 +5,7 @@ import LandingPageBottom from "./LandingPageBottom";
 const LandingPageTop = () => {
   return (
     <>
-      <div className="w-full container-snap overflow-x-auto">
+      <div className="w-full h-screen">
         <div>
           <Navbar className="w-full" />
         </div>
@@ -13,7 +13,9 @@ const LandingPageTop = () => {
           <h1 className="text-6xl pt-32 font-semibold">Get Your Next</h1>
         </div>
 
-        <LandingPageBottom />
+        <div>
+          <LandingPageBottom />
+        </div>
       </div>
     </>
   );

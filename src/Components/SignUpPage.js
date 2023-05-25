@@ -1,5 +1,5 @@
 import React from "react";
-import { ImgHolder } from "./imgHolder";
+import { ImgHolder } from "./ImgHolder";
 import { recepies } from "../data/recipies";
 const SignUpPage = () => {
   const RenderColumn = () => {
