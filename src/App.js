@@ -5,7 +5,6 @@ import SignUp from "./Components/SignUpPage";
 import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
-
 function App() {
   return (
     <div className="flex">
