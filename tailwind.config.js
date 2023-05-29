@@ -12,6 +12,8 @@ module.exports = {
         cBackgroundColor: "#FFE3E1",
         cTextColorShop: "#9B0000",
         cHoverColorOrange: "#E55807",
+        cFilterColor: "#FFC7C7",
+        cFilterHoverColor:"#FFE2E2",
       },
     },
   },

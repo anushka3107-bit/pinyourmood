@@ -38,7 +38,7 @@ const Navbar = () => {
               Log in
             </a>
           </div>
-          <div className="bg-gray-200 px-3 py-2.5 rounded-3xl wrap hover:bg-cSearchIcon">
+          <div className="bg-gray-200 px-4 py-2.5 rounded-3xl wrap hover:bg-cSearchIcon">
             <a
               href="dvgsf"
               className="nav-link font-medium  text-black hover:text-white"

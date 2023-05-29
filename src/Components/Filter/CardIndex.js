@@ -7,8 +7,8 @@ const CardIndex = () => {
     <div className="flex pt-10 px-10">
       {filterData.map((item) => {
         return (
-          <div className="mr-10">
-            <Card id={item.id} imgURL={item.imgURL} title={item.title} />
+          <div className="mr-10 ">
+            {<Card id={item.id} imgURL={item.imgURL} title={item.title} />}
           </div>
         );
       })}
