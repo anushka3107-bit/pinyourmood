@@ -4,7 +4,7 @@ import SignUp from "./Components/SignUpPage";
 import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPageTop from "./Components/LandingPageTop";
-import Filter from "./Components/Filter";
+import Filter from "./Components/Filter/CardIndex";
 
 function App() {
   return (
