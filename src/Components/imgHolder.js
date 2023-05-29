@@ -6,7 +6,7 @@ export const ImgHolder = (props) => {
         className="rounded-2xl object-cover mt-5 h-full w-full"
         src={props.img}
         alt=""
-      ></img>
+      />
     </div>
   );
 };
