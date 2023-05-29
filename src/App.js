@@ -4,7 +4,7 @@ import SignUp from "./Components/SignUpPage";
 import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPageTop from "./Components/LandingPageTop";
-import CardIndex from "./Components/Filter/CardIndex";
+import Filter from "./Components/Filter/CardIndex";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="/signup" element={<SignUp />} />
           <Route path="/landingpage" element={<LandingPage />} />
           <Route path="/landingpagethird" element={<LandingPageThirdPage />} />
-          <Route path="/cardindex" element={<CardIndex />}/>
+          <Route path="/filter" element={<Filter />} />
         </Routes>
       </BrowserRouter>
     </div>
