@@ -1,9 +1,7 @@
-
-
 export const filterData = [
   {
     id: "1",
-    title: "Food",
+    title: "food",
     imgURL:
       "https://i.pinimg.com/236x/bc/9a/f4/bc9af4c2074cd1e679031a593d1e5b8d.jpg",
   },
@@ -17,7 +15,7 @@ export const filterData = [
     id: "3",
     title: "beauty",
     imgURL:
-      "https://i.pinimg.com/236x/8e/42/34/8e423413e558fad1876a087fac877fbd.jpg",
+      "https://i.pinimg.com/236x/09/24/b1/0924b160f2778323244206da6b8edcfd.jpg",
   },
   {
     id: "4",

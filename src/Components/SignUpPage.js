@@ -1,6 +1,7 @@
 import React from "react";
 import { ImgHolder } from "./ImgHolder";
 import { recepies } from "../data/recipies";
+
 const SignUpPage = () => {
   const RenderColumn = () => {
     const components = [];
