@@ -1,15 +1,16 @@
 import React from "react";
+import { useState } from "react";
 
 const Card = ({ imgURL, title }) => {
   const colors = [
-    "#FEFF86",
-    "#FDCEDF",
-    "#FFD3B0",
-    "#C7E9B0",
-    "#FFEBB4",
-    "#E5D1FA",
-    "#FFE7CC",
-    "#FFD4D4",
+    "#FFBFA9",
+    "#FFF8BC",
+    "#F7E9D7",
+    "#DAF5FF",
+    "#FFABAB",
+    "#FFCEFE",
+    "#FBA1A1",
+    "#FCE2DB",
   ];
 
   const getRandomColor = () => {
@@ -19,15 +20,30 @@ const Card = ({ imgURL, title }) => {
 
   const getBackgroundColor = getRandomColor();
 
+  const [backgroundColor, setBackgroundColor] = useState(getRandomColor());
+
+  const handleMouseEnter = () => {
+    setBackgroundColor("#F8F1F1");
+  };
+
+  const handleMouseLeave = () => {
+    setBackgroundColor(getRandomColor());
+  };
+
   return (
     <div
-      style={{ backgroundColor: getBackgroundColor }}
-      className="flex hover:bg-cFilterHoverColor shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
+      style={{
+        backgroundColor: backgroundColor,
+        transition: "background-color 0.3s",
+      }}
+      className="flex shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <img
         src={imgURL}
         alt={title}
-        className="h-24 w-24 rounded-2xl px-4 py-4"
+        className="h-24 w-24 rounded-3xl px-4 py-4"
       />
       <h1 className="text-xl font-semibold text-gray-800 px-5 py-5 ">
         {title}
