@@ -3,14 +3,13 @@ import { useState } from "react";
 
 const Card = ({ imgURL, title }) => {
   const colors = [
+    "#FFE5CA",
+    "#AEC2B6",
+    "#E9EDC9",
     "#FFBFA9",
-    "#FFF8BC",
-    "#F7E9D7",
-    "#DAF5FF",
-    "#FFABAB",
-    "#FFCEFE",
-    "#FBA1A1",
-    "#FCE2DB",
+    "#DDF7E3",
+    "#F7C8E0",
+    "#EDDBC7",
   ];
 
   const getRandomColor = () => {
@@ -20,14 +19,14 @@ const Card = ({ imgURL, title }) => {
 
   const getBackgroundColor = getRandomColor();
 
-  const [backgroundColor, setBackgroundColor] = useState(getRandomColor());
+  const [backgroundColor, setBackgroundColor] = useState(getBackgroundColor);
 
   const handleMouseEnter = () => {
     setBackgroundColor("#F8F1F1");
   };
 
   const handleMouseLeave = () => {
-    setBackgroundColor(getRandomColor());
+    setBackgroundColor(getBackgroundColor);
   };
 
   return (
