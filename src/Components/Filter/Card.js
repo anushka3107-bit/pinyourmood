@@ -31,13 +31,8 @@ const Card = ({ imgURL, title }) => {
 
   return (
     <div
-      style={{
-        backgroundColor: backgroundColor,
-        transition: "background-color 0.3s",
-      }}
-      className="flex shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
+      style={{ backgroundColor: getBackgroundColor }}
+      className="flex hover:bg-cFilterHoverColor shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
     >
       <img
         src={imgURL}
