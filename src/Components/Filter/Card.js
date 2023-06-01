@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
+
+
 const Card = ({ imgURL, title }) => {
   const colors = [
     "#FFE5CA",
@@ -29,6 +31,21 @@ const Card = ({ imgURL, title }) => {
   };
 
   return (
+<<<<<<< HEAD
+        <div
+          style={{ backgroundColor: getBackgroundColor }}
+          className="overflow-hidden flex shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
+        >
+          <img
+            src={imgURL}
+            alt={title}
+            className="h-24 w-24 rounded-3xl px-4 py-4"
+          />
+          <h1 className="text-xl font-semibold text-gray-800 px-5 py-5 ">
+            {title}
+          </h1>
+        </div>
+=======
     <div
       style={{ backgroundColor: getBackgroundColor }}
       onMouseEnter={handleMouseEnter}
@@ -44,6 +61,7 @@ const Card = ({ imgURL, title }) => {
         {title}
       </h1>
     </div>
+>>>>>>> d11528b67c9ad7a283b97497f26b3853710edd33
   );
 };
 
