@@ -5,6 +5,7 @@ import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPageTop from "./Components/LandingPageTop";
 import Filter from "./Components/Filter/CardIndex";
+import SearchBar from "./Components/SearchBar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/landingpage" element={<LandingPage />} />
           <Route path="/landingpagethird" element={<LandingPageThirdPage />} />
           <Route path="/filter" element={<Filter />} />
+          <Route path="/searchbar" element={<SearchBar />} />
         </Routes>
       </BrowserRouter>
     </div>

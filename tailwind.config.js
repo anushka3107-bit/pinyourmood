@@ -51,9 +51,9 @@ module.exports = {
         cTextColorShop: "#9B0000",
         cHoverColorOrange: "#E55807",
         cFilterColor: "#FFC7C7",
-        cFilterHoverColor:"#FFE2E2",
+        cFilterHoverColor: "#FFE2E2",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
