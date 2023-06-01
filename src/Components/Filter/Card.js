@@ -4,12 +4,11 @@ import { useState } from "react";
 const Card = ({ imgURL, title }) => {
   const colors = [
     "#FFE5CA",
-    "#AEC2B6",
-    "#E9EDC9",
-    "#FFBFA9",
-    "#DDF7E3",
-    "#F7C8E0",
-    "#EDDBC7",
+    "#FFACAC",
+    "#FFD4D4",
+    "#FFE5F1",
+    "#CEEDC7",
+    "#FFDDD2",
   ];
 
   const getRandomColor = () => {
@@ -32,7 +31,9 @@ const Card = ({ imgURL, title }) => {
   return (
     <div
       style={{ backgroundColor: getBackgroundColor }}
-      className="flex hover:bg-cFilterHoverColor shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className="flex shadow-md justify-center items-center rounded-xl px-10 cursor-pointer"
     >
       <img
         src={imgURL}
