@@ -1,6 +1,6 @@
 import React from "react";
-import { ImgHolder } from "./ImgHolder";
 import { recepies } from "../data/recipies";
+import {ImgHolder} from "../Components/ImgHolder";
 
 const SignUpPage = () => {
   const RenderColumn = () => {
@@ -35,8 +35,10 @@ const SignUpPage = () => {
 
   return (
     <div className="relative h-screen w-screen overflow-hidden bg-white">
-      <div className="absolute w-screen h-screen inset-0 bg-gradient-to-r
-       from-pink-500 via-red-500 to-yellow-500 opacity-20 bg-blend-overlay animate-pulse"></div>
+      <div
+        className="absolute w-screen h-screen inset-0 bg-gradient-to-r
+       from-pink-500 via-red-500 to-yellow-500 opacity-20 bg-blend-overlay animate-pulse"
+      ></div>
       <div className="flex flex-row gap-[18px] w-[107%]">
         <RenderColumn />
       </div>
