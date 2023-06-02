@@ -3,6 +3,7 @@ import { filterData } from "../../data/filterdata";
 import Card from "./Card";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
+
 const CardIndex = () => {
   const slideLeft = () => {
     var slider = document.getElementById("slider");
@@ -17,7 +18,7 @@ const CardIndex = () => {
   return (
     <div className="flex pt-10 px-10 overflow-hidden items-center">
       <MdChevronLeft
-        className="opacity-50 cursor-pointer hover:opacity-100 rounded-full bg-zinc-100 h-10 w-10"
+        className="opacity-50 cursor-pointer hover:opacity-100 rounded-full bg-zinc-100 h-10 w-10 "
         onClick={slideLeft}
         size={30}
       />

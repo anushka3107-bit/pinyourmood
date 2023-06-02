@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
 
-
-
 const Card = ({ imgURL, title }) => {
   const colors = [
     "#FFE5CA",
