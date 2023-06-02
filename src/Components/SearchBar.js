@@ -30,7 +30,7 @@ const SearchBar = () => {
 
         <div className="flex w-3/5 cursor-pointer h-10 bg-[#e9e9e9] mt-5 m-2 px-[15px] py-2 rounded-[50px] ">
           <input
-            className="w-[75rem] text-gray-500 bg-transparent border-r-2 border-r-gray-300  border-solid justify-left outline-none border-none"
+            className="w-[75rem] text-gray-500 bg-transparent border-r-2 border-r-gray-300 justify-left outline-none"
             type="text"
             placeholder="Search Interests"
           />

@@ -7,7 +7,7 @@ import LandingPageTop from "./Components/LandingPageTop";
 import Filter from "./Components/Filter/CardIndex";
 import SearchBar from "./Components/SearchBar";
 import ContentPage from "./Components/ContentPage";
-
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -21,7 +21,8 @@ function App() {
           <Route path="/landingpagethird" element={<LandingPageThirdPage />} />
           <Route path="/filter" element={<Filter />} />
           <Route path="/searchbar" element={<SearchBar />} />
-          <Route path="/contentpage" element={<ContentPage />}/>
+          <Route path="/contentpage" element={<ContentPage />} />
+          <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
     </div>
