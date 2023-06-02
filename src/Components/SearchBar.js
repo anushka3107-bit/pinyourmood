@@ -1,46 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import "./SearchBar.css";
-import { BiSearchAlt } from "react-icons/bi";
-import { BsBellFill } from "react-icons/bs";
-import { AiFillMessage } from "react-icons/ai";
-import { FaUserCircle } from "react-icons/fa";
-import { IoIosArrowDropdown } from "react-icons/io";
-const SearchBar = () => {
-  return (
-    <>
-        <div className="search">
-          <div className="LogoImage">
-            <img src="https://www.freepnglogos.com/uploads/pinterest-logo-p-png-0.png" alt=''/>
-          </div>
-          <button className="home">Home</button>
-          <button className="explore">Explore</button>
-          <div className="search-box">
-              <input type="text" placeholder="Search Interests"/>
-              <div className="SearchIcon">
-                <BiSearchAlt />
-              </div>
-          </div>
-          <div className="Buttons">
-            <button className="Notifications">
-              <BsBellFill />
-            </button>
-            <button className="Messages">
-              <AiFillMessage />
-            </button>
-            <button className="UserProfile">
-              <FaUserCircle />
-            </button>
-            <button className="Options">
-              <IoIosArrowDropdown />
-            </button>
-          </div>
-          
-        </div> 
-    </>
-  )
-}
-=======
 import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { BsBellFill } from "react-icons/bs";
@@ -73,7 +30,7 @@ const SearchBar = () => {
 
         <div className="flex w-3/5 cursor-pointer h-10 bg-[#e9e9e9] mt-5 m-2 px-[15px] py-2 rounded-[50px] ">
           <input
-            className="w-[75rem] text-gray-500 bg-transparent border-r-2 border-r-gray-300  border-solid justify-left outline-none border-none"
+            className="w-[75rem] text-gray-500 bg-transparent border-r-2 border-r-gray-300 justify-left outline-none"
             type="text"
             placeholder="Search Interests"
           />
@@ -100,6 +57,5 @@ const SearchBar = () => {
     </>
   );
 };
->>>>>>> baae1c7cb2b3793ac54a3645ae3d417db5a0d157
 
 export default SearchBar;

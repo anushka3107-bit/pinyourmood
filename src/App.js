@@ -5,13 +5,9 @@ import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPageTop from "./Components/LandingPageTop";
 import Filter from "./Components/Filter/CardIndex";
-<<<<<<< HEAD
-import SearchBar from "./Components/SearchBar"
-=======
 import SearchBar from "./Components/SearchBar";
 import ContentPage from "./Components/ContentPage";
-
->>>>>>> baae1c7cb2b3793ac54a3645ae3d417db5a0d157
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -25,10 +21,8 @@ function App() {
           <Route path="/landingpagethird" element={<LandingPageThirdPage />} />
           <Route path="/filter" element={<Filter />} />
           <Route path="/searchbar" element={<SearchBar />} />
-<<<<<<< HEAD
-=======
-          <Route path="/contentpage" element={<ContentPage />}/>
->>>>>>> baae1c7cb2b3793ac54a3645ae3d417db5a0d157
+          <Route path="/contentpage" element={<ContentPage />} />
+          <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>
     </div>
