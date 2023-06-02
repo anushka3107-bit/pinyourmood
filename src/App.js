@@ -5,8 +5,7 @@ import LandingPageThirdPage from "./Components/LandingPageThirdPage";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import LandingPageTop from "./Components/LandingPageTop";
 import Filter from "./Components/Filter/CardIndex";
-import SearchBar from "./Components/SearchBar";
-import ContentPage from "./Components/ContentPage";
+import Home from "./Components/Home";
 import Footer from "./Components/footer";
 
 function App() {
@@ -20,8 +19,7 @@ function App() {
           <Route path="/landingpage" element={<LandingPage />} />
           <Route path="/landingpagethird" element={<LandingPageThirdPage />} />
           <Route path="/filter" element={<Filter />} />
-          <Route path="/searchbar" element={<SearchBar />} />
-          <Route path="/contentpage" element={<ContentPage />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
       </BrowserRouter>

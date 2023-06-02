@@ -4,8 +4,8 @@ import "./footer.css";
 
 const footer = () => {
   return (
-    <div className="w-full absolute">
-      <div className="sb_footer section_padding">
+    <div className="footer">
+      <div className="sb_footer section padding">
         <div className="sb_footer-links">
           <div className="sb_footer-links-div">
             <h4>For Business</h4>
@@ -69,7 +69,7 @@ const footer = () => {
         <hr />
 
         <div className="sb_footer-below">
-          <div className="text-sm leading-4">
+          <div className="sb_footer-copyright">
             <p>@Copyright {new Date().getFullYear()} . All rights reserved.</p>
           </div>
           <div className="sb_footer-below-links">
