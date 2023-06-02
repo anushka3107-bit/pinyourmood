@@ -7,7 +7,7 @@ import LandingPageTop from "./Components/LandingPageTop";
 import Filter from "./Components/Filter/CardIndex";
 import SearchBar from "./Components/SearchBar";
 import ContentPage from "./Components/ContentPage";
-import Footer from "./Components/footer";
+import Footer from "./Components/FooterHimanshu";
 
 function App() {
   return (
