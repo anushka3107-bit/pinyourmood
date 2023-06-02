@@ -1,9 +1,9 @@
 import React from "react";
 
-const Footer = () => {
+const FooterHimanshu = () => {
   return (
     <>
-      <div className="flex w-full bg-red-300 items-center h-screen justify-between">
+      <div className="flex w-full bg-gray-200 items-center h-screen justify-between ">
         <div className="flex flex-col justify-center items-center w-1/2 pl-8">
           <h4 className="text-3xl font-bold hover:text-white">About Us</h4>
 
@@ -33,26 +33,30 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-end items-end w-1/2 pr-8 cursor-pointer">
-          <h4 className="font-bold text-xl hover:text-white">Team Members</h4>
-          <a href="/employer">
-            <span className="hover:text-white">Anushka Bhardwaj</span>
-          </a>
-          <a href="/employer">
-            <span className="hover:text-white">Nishant Chauhan</span>
-          </a>
-          <a href="/employer">
-            <span className="hover:text-white">Himanshu Bhatt</span>
-          </a>
-          <a href="/employer">
-            <span className="hover:text-white">Unnati Bhole</span>
-          </a>
-          <button className="bg-orange-600 rounded-xl px-3 py-3 hover:bg-orange-200 hover:text-white">
-            Get In Touch
-          </button>
+          <div className="flex flex-col justify-center items-center">
+            <h4 className="font-bold text-xl hover:text-white">Team Members</h4>
+            <a href="/employer">
+              <span className="hover:text-white">Anushka Bhardwaj</span>
+            </a>
+            <a href="/employer">
+              <span className="hover:text-white">Nishant Chauhan</span>
+            </a>
+            <a href="/employer">
+              <span className="hover:text-white">Himanshu Bhatt</span>
+            </a>
+            <a href="/employer">
+              <span className="hover:text-white">Unnati Bhole</span>
+            </a>
+            <div className="pt-3">
+              <button className="bg-orange-600 rounded-full px-3 py-3 hover:bg-orange-400 hover:text-white">
+                Get In Touch
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
   );
 };
 
-export default Footer;
+export default FooterHimanshu;
