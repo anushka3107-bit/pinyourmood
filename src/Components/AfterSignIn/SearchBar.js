@@ -49,7 +49,7 @@ const SearchBar = () => {
           <div className="text-gray-300 py-2 px-2 hover:bg-gray-200 rounded-full">
             <FaUserCircle />
           </div>
-          <div className="text-gray-600  py-2 px-2 hover:bg-gray-200 rounded-full">
+          <div className="text-gray-600  py-2 px-2 hover:bg-gray-200 rounded-full ">
             <FiChevronDown />
           </div>
         </div>

@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white py-5 w-full ">
       <div className="container mx-auto px-3 flex justify-between items-center">
-        <a href=" fmc" className="flex items-center">
+        <a href="##" className="flex items-center">
           <img
             src="https://i.pinimg.com/736x/db/e3/5f/dbe35ff8f5695e8371ae4d68057d1b9d.jpg"
             alt="Logo"
@@ -16,25 +16,25 @@ const Navbar = () => {
         </a>
         <div className="flex items-center">
           <a
-            href="gdjf"
+            href="##"
             className="nav-link pr-10 font-medium text-black hover:text-cSearchText"
           >
             About
           </a>
           <a
-            href="gfvh"
+            href="##"
             className="nav-link pr-10 font-medium text-black hover:text-cSearchText"
           >
             Business
           </a>
           <a
-            href="gs"
+            href="##"
             className="nav-link pr-10 font-medium text-black hover:text-cSearchText"
           >
             Blog
           </a>
           <div className="bg-cSearchIcon mr-4 px-3 py-2 rounded-3xl hover:bg-cHoverColorOrange">
-            <a href="dzgfdh" className="nav-link  font-medium text-white">
+            <a href="" className="nav-link  font-medium text-white">
               Log in
             </a>
           </div>

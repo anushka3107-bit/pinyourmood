@@ -1,6 +1,6 @@
 import React from "react";
-import { recepies } from "../data/recipies";
-import {ImgHolder} from "../Components/ImgHolder";
+import { recepies } from "../Data/SignUpImagesData";
+import { ImgHolder } from "./ImgHolder";
 
 const SignUpPage = () => {
   const RenderColumn = () => {

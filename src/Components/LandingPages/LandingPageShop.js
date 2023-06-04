@@ -1,7 +1,7 @@
 const LandingPageThirdPage = () => {
   return (
     <>
-      <div className="flex bg-cBackgroundColor h-screen w-screen">
+      <div className="flex relative bg-cBackgroundColor h-screen w-screen">
         <img
           className="object-cover w-1/2 h-auto"
           src="https://s.pinimg.com/webapp/shop-bd0c8a04.png"
