@@ -5,7 +5,7 @@ export const recepies = [
   "https://i.pinimg.com/550x/ab/36/4c/ab364c9df3ce6ff3e1e5834c8359f2da.jpg",
   "https://i.pinimg.com/550x/bc/c0/09/bcc009e050c7d297cfd036466d41ee4d.jpg",
   "https://i.pinimg.com/550x/1e/48/7b/1e487b8c1d22a689b45e6f495b3b856b.jpg",
-  "https://i.pinimg.com/550x/a9/de/84/a9de841ad3df74fa18a238a5eaeade67.jpg",
+  "https://i.pinimg.com/550x/a9/de/84/a9de841ad3df74fa18a238a5eaeade67.jpg", 
   "https://i.pinimg.com/550x/4c/a7/40/4ca740cb0b6e36c207a15538942474c2.jpg",
   "https://i.pinimg.com/550x/9c/9a/e6/9c9ae6cbed094e34a7cc75fd1e955c50.jpg",
   "https://i.pinimg.com/550x/3b/d5/ef/3bd5ef3dc79ad219f69b21ca6c376273.jpg",

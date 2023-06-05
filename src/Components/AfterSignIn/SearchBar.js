@@ -7,7 +7,7 @@ import { FiChevronDown } from "react-icons/fi";
 const SearchBar = () => {
   return (
     <>
-      <div className="flex justify-between w-full h-20 shadow-[0px_5px_20px_rgba(0,0,0,0.15)]">
+      <div className="flex justify-between w-full h-20 shadow-[0px_5px_20px_rgba(0,0,0,0.15)] ">
         <div className="flex items-center justify-center pl-10 cursor-pointer">
           <img
             className="w-10 h-10"

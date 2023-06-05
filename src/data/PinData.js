@@ -1,4 +1,4 @@
-const PinData = [
+const pindata = [
   {
     id: 1,
     imgSrc:
@@ -80,7 +80,7 @@ const PinData = [
     size: "medium",
   },
   {
-    id: 11, 
+    id: 11,
     imgSrc:
       "https://cdn.pixabay.com/photo/2012/06/19/10/32/owl-50267_960_720.jpg",
     name: "Chraecker",
@@ -241,4 +241,4 @@ const PinData = [
   },
 ];
 
-export default PinData;
+export default pindata;
