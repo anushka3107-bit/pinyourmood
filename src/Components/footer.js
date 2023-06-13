@@ -1,6 +1,6 @@
 import React from "react";
 
-const FooterHimanshu = () => {
+const Footer = () => {
   return (
     <>
       <div className="relative flex w-full bg-gray-200 items-center h-screen justify-between ">
@@ -19,15 +19,21 @@ const FooterHimanshu = () => {
           </div>
 
           <div className="flex cursor-pointer space-evenly">
-            <a href="##">
-              <span className="hover:text-red-500"> Terms & Conditions </span>
+            <a href="/terms">
+              <span className="hover:text-red-500 font-bold">
+                {" "}
+                Terms & Conditions{" "}
+              </span>
             </a>
-            <a href="##">
-              <span className="px-4 hover:text-red-500"> Privacy Policy</span>
+            <a href="/privacy">
+              <span className="px-4 hover:text-red-500 font-bold">
+                {" "}
+                Privacy Policy
+              </span>
             </a>
           </div>
 
-          <div className="flex flex-col cursor-pointer hover:text-red-500">
+          <div className="flex flex-col cursor-pointer hover:text-red-500 font-bold">
             <span>@Copyright {new Date().getFullYear()}.</span>
           </div>
         </div>
@@ -50,7 +56,7 @@ const FooterHimanshu = () => {
               <span className="hover:text-red-500">Unnati Bhole</span>
             </a>
             <div className="pt-3">
-              <button className="bg-orange-600 rounded-full px-3 py-3 hover:bg-orange-400 hover:text-white">
+              <button className="bg-orange-600 rounded-full px-3 py-3 hover:bg-orange-400  text-white font-semibold transition-all hover:text-white">
                 Get In Touch
               </button>
             </div>
@@ -61,4 +67,4 @@ const FooterHimanshu = () => {
   );
 };
 
-export default FooterHimanshu;
+export default Footer;
