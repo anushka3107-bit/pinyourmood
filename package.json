@@ -21,7 +21,9 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-scroll-horizontal": "^1.6.6",
+    "react-typewriter-effect": "^1.1.0",
     "tailwind-scrollbar-hide": "^1.1.7",
+    "typewriter-effect": "^2.20.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
