@@ -1,5 +1,5 @@
 import React from "react";
-import { filterData } from "../../../data/filterData";
+import { filterData } from "../../../Data/filterdata";
 import Card from "./Card";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 

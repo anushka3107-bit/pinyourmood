@@ -19,13 +19,13 @@ const Footer = () => {
           </div>
 
           <div className="flex cursor-pointer space-evenly">
-            <a href="/terms">
+            <a href="##">
               <span className="hover:text-red-500 font-bold">
                 {" "}
                 Terms & Conditions{" "}
               </span>
             </a>
-            <a href="/privacy">
+            <a href="##">
               <span className="px-4 hover:text-red-500 font-bold">
                 {" "}
                 Privacy Policy
