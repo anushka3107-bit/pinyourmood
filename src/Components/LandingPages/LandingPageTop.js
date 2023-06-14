@@ -13,9 +13,7 @@ const LandingPageTop = () => {
     for (let i = 0; i < 7; i++) {
       components.push(
         i % 2 === 0 ? (
-          <div className="w-full">
-            {renderImg(2, recIdx)}
-          </div>
+          <div className="w-full">{renderImg(2, recIdx)}</div>
         ) : (
           <div className="w-full mt-[-10rem] mb-0 mx-0">
             {renderImg(3, recIdx)}
@@ -37,13 +35,16 @@ const LandingPageTop = () => {
 
   return (
     <>
-      <Navbar />
-      <div className="relative h-screen w-screen overflow-hidden bg-white">
+      <div className="relative h-screen w-screen overflow-hidden bg-black">
+        <div className="fixed top-0 right-0 left-0 bg-white">
+          <Navbar />
+        </div>
         <div
           className="absolute w-screen h-screen inset-0 bg-gradient-to-r
        from-pink-500 via-red-500 to-yellow-500 opacity-20 bg-blend-overlay"
         ></div>
-        <div className="absolute text-7xl text-center font-bold flex justify-center items-center h-full w-full">
+
+        <div className="absolute text-white text-7xl text-center font-bold flex justify-center items-center h-full w-full">
           <Typewriter
             onInit={(typewriter) => {
               typewriter

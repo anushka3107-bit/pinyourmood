@@ -7,7 +7,7 @@ import Footer from "../Footer";
 const ContentPage = () => {
   return (
     <>
-      <div className="h-screen w-screen overflow-x-hidden scrollbar-hide">
+      <div className="h-screen w-screen overflow-x-hidden scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
         <div className="pb-5">
           <SearchBar className="h-screen w-screen fixed" />
           <Filter className="h-screen w-screen" />

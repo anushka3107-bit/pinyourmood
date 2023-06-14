@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="py-5 w-full bg-transparent">
+    <nav className="py-5 w-full">
       <div className="container mx-auto px-3 flex justify-between items-center">
         <a href="##" className="flex items-center">
           <img
