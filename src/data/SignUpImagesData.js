@@ -1,4 +1,4 @@
-export const recepies = [
+export const signUpImagesData = [
   "https://i.pinimg.com/550x/0c/18/3d/0c183dafd58d1ebdbe3cb6865e56d516.jpg",
   "https://i.pinimg.com/550x/1d/ce/e7/1dcee7977b922d38bf7873462793aec5.jpg",
   "https://i.pinimg.com/550x/0e/6e/0f/0e6e0f35b79799c6d18f47e54ebb28f7.jpg",

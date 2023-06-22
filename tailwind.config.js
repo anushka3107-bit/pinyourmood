@@ -53,6 +53,9 @@ module.exports = {
         cFilterColor: "#FFC7C7",
         cFilterHoverColor: "#FFE2E2",
         cTextColor: "#79E0EE",
+        cGradientFirst:"#3E5151",
+        cGradientSecond:"#DECBA4",
+
       },
     },
   },
