@@ -35,15 +35,12 @@ const LandingPageTop = () => {
 
   return (
     <>
+      <Navbar className="fixed cursor-pointer" />
       <div className="relative h-screen w-screen overflow-hidden bg-black">
-        <div className="fixed top-0 right-0 left-0 bg-white">
-          <Navbar />
-        </div>
         <div
           className="absolute w-screen h-screen inset-0 bg-gradient-to-r
        from-cGradientFirst to-cGradientSecond opacity-20 bg-blend-overlay"
         ></div>
-
         <div className="absolute text-white text-7xl text-center font-bold flex justify-center items-center h-full w-full">
           <Typewriter
             onInit={(typewriter) => {
