@@ -33,7 +33,7 @@ const Navbar = () => {
           >
             Blog
           </a>
-          <button className="bg-cSearchIcon cursor-pointer mr-4 px-3 py-2 rounded-3xl hover:bg-cHoverColorOrange">
+          <button className="bg-cSearchIcon text-white cursor-pointer mr-4 px-3 py-2 rounded-3xl hover:bg-cHoverColorOrange ">
             Login
           </button>
           <div className="bg-gray-200 px-4 py-2.5 rounded-3xl wrap hover:bg-cSearchIcon">

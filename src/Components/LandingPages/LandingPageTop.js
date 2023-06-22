@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import Typewriter from "typewriter-effect";
 import { signUpImagesData } from "../../data/signUpImagesData";
 
+
 const LandingPageTop = () => {
   const RenderColumn = () => {
     const components = [];
