@@ -38,7 +38,9 @@ const LoginPage = () => {
           onSubmit={handleSubmit}
         >
           <div className="flex justify-center items-center">
-            <p className="py-3 text-3xl font-extrabold ">PinYourMood</p>
+            <p className="py-3 text-3xl font-extrabold hover:text-cSearchIcon">
+              PinYourMood
+            </p>
           </div>
 
           <div className="mb-3">
