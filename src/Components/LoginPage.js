@@ -26,7 +26,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex justify-start items-center flex-col h-screen">
+    <div className="flex justify-center items-center flex-col h-screen">
       <div className="relative w-full h-full">
         {/* login screen background */}
         <img src={Bg} alt="" />
@@ -34,10 +34,14 @@ const LoginPage = () => {
 
       <div className="absolute w-full max-w-md m-5">
         <form
-          className="bg-white shadow-md rounded px-8 pt-6 pb-8 mt-40"
+          className="bg-white shadow-md rounded-md px-8 pt-6 pb-8 mt-40"
           onSubmit={handleSubmit}
         >
-          <div className="mb-4">
+          <div className="flex justify-center items-center">
+            <p className="py-3 text-3xl font-extrabold ">PinYourMood</p>
+          </div>
+
+          <div className="mb-3">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="name"
@@ -54,7 +58,8 @@ const LoginPage = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="mb-4">
+
+          <div className="mb-3">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="email"
@@ -71,7 +76,7 @@ const LoginPage = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="mb-6">
+          <div className="mb-3">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="password"
@@ -88,9 +93,9 @@ const LoginPage = () => {
               onChange={handleChange}
             />
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-center py-5">
             <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+              className="bg-cSearchIcon hover:bg-cHoverColorOrange text-white font-bold py-3 px-5 rounded-full  focus:outline-none focus:shadow-outline"
               type="submit"
             >
               Sign Up
