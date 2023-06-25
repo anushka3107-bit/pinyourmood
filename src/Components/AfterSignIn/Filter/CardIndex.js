@@ -1,5 +1,5 @@
 import React from "react";
-import { filterData } from "../../../Data/filterdata";
+import {filterdata} from "../../../Data/filterdata";
 import Card from "./Card";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
@@ -26,7 +26,7 @@ const CardIndex = () => {
         id="slider"
         className="w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth scrollbar-hide"
       >
-        {filterData.map((item) => {
+        {filterdata.map((item) => {
           return (
             <div className="w-[220px] p-2 inline-block cursor-pointer hover:scale-105 ease-in-out duration-300">
               <Card id={item.id} imgURL={item.imgURL} title={item.title} />

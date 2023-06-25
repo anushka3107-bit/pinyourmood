@@ -1,4 +1,4 @@
-export const filterData = [
+export const filterdata = [
   {
     id: "1",
     title: "food",
