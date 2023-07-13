@@ -17,7 +17,7 @@ function Pin({ pinSize, imgSrc, name, link }) {
       >
         <h3 className="text-white text-lg font-medium">{name}</h3>
         <FiUpload className="text-white font-bold text-lg" />
-        <a href={link}></a>
+        <a href={link}> </a>
       </div>
     </div>
   );

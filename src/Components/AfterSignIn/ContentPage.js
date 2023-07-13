@@ -1,6 +1,6 @@
 import React from "react";
 import Pin from "./Pin";
-import pindata from "../../data/pindata"
+import pindata from "../../Data/PinData"
 
 const ContentPage = () => {
   return (

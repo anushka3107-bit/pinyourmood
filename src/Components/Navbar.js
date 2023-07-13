@@ -1,13 +1,14 @@
 import React from "react";
+import logo from "../images/logo.png"
 const Navbar = () => {
   return (
     <nav className="py-5 w-full">
       <div className="container mx-auto px-3 flex justify-between items-center">
         <a href="/" className="flex items-center">
           <img
-            src="https://i.pinimg.com/736x/db/e3/5f/dbe35ff8f5695e8371ae4d68057d1b9d.jpg"
+            src={logo}
             alt="Logo"
-            className="cursor-pointer w-10 h-10 rounded-2xl "
+            className="cursor-pointer w-10 h-10 rounded-3xl "
           />
           <span className="cursor-pointer text-xl font-semibold ml-2 text-black hover:text-cSearchIcon">
             PinYourMood

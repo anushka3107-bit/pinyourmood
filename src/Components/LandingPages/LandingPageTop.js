@@ -2,7 +2,7 @@ import React from "react";
 import { ImgHolder } from "../LandingPages/ImgHolder";
 import Navbar from "../Navbar";
 import Typewriter from "typewriter-effect";
-import { signUpImagesData } from "../../data/signUpImagesData";
+import { signUpImagesData } from "../../Data/SignUpImagesData";
 
 
 const LandingPageTop = () => {
